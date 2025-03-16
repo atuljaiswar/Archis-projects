@@ -892,6 +892,88 @@ header li a:hover {
 
 /* trustco section end here */
 
+/* customer service section start here */
+
+.customer-service {
+  background-color: #12141D;
+  padding: 55px 0 0;
+}
+
+.customer-service .service-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-wrapper .free-trial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.free-trial h3 {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.free-trial .free-trial-demo {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  width: 78%;
+  padding: 17px 22px;
+  column-gap: 20px;
+  background-color: #F0B73F;
+  border-radius: 50px;
+  margin: 18px auto 22px;
+}
+
+.free-trial-demo .text {
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.free-trial-demo .arrow {
+  background-color: #00000029;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.free-trial-demo .fa-arrow-right {
+  color: #fff;
+}
+
+.free-trial p {
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+}
+
+.service-wrapper figure {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: -2%;
+}
+
+.service-wrapper figure img {
+  width: 100%;
+}
+
+/* customer service section end here */
+
 /* mobile styling end here */
 
 
@@ -1521,6 +1603,81 @@ header li a:hover {
 
     /* trustco section end here */
 
+      /* customer service section start here */
+    .customer-service {
+      background-color: #12141D;
+      padding: 0;
+    }
+    
+    .customer-service .service-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 89%;
+      max-width: 1290px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    .service-wrapper .free-trial {
+      justify-content: flex-start;
+      padding: 0;
+      text-align: left;
+      position: absolute;
+      left: 6%;
+    }
+    
+    .free-trial h3 {
+      font-size: 40px;
+      line-height: 55px;
+      font-weight: 700;
+      color: #fff;
+      width: 60%;
+    }
+    
+    .free-trial .free-trial-demo {
+      font-size: 16px;
+      line-height: 28px;
+      font-weight: 700;
+      display: flex;
+      justify-content: space-between;
+      width: 50%;
+      padding: 17px 22px;
+      column-gap: 20px;
+      border-radius: 50px;
+      margin: 18px 0 22px;
+      width: 23%;
+      min-width: 273px;
+    }
+    
+    .free-trial-demo .text {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 28px;
+    }
+    
+    .free-trial-demo .arrow {
+      width: 30px;
+      height: 30px;
+    }
+    
+    .free-trial-demo .fa-arrow-right {
+      color: #fff;
+    }
+    
+    .free-trial p {
+      font-size: 20px;
+      line-height: 30px;
+      color: rgba(255, 255, 255, 0.7);
+      margin: 0;
+    }
+
+    .service-wrapper figure {
+      width: 55%;
+      margin: 0 0 -0.5% auto;
+    }
+    /* customer service section end here */
 
 
  }
@@ -1727,6 +1884,26 @@ header li a:hover {
       width: 68%;
     }
     /* truscto section end here */
+
+    /* customer service section start here */  
+
+    .free-trial h3 {
+      font-size: 60px;
+      line-height: 72px;
+    }
+    
+    .free-trial .free-trial-demo {
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 700;
+    }
+    
+    .free-trial-demo .text {
+      font-size: 18px;
+      line-height: 28px;
+    }
+
+    /* customer service section end here */
 } 
 
 /* desktop styling end here */
