@@ -974,6 +974,110 @@ header li a:hover {
 
 /* customer service section end here */
 
+/* footer section start here */
+
+footer {
+  padding-bottom: 30px;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.footer-wrapper .trusto-logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.trusto-logo .social-icon {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  align-items: center;
+  row-gap: 16px;
+  text-align: center;
+}
+
+.trusto-logo .social-icon .icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 18px;
+}
+
+
+.trusto-logo .social-icon ul {
+  display: flex;
+  column-gap: 20px;
+}
+
+.trusto-logo .social-icon li {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  background-color: #D7E0E5;
+}
+
+.trusto-logo .social-icon li img {
+  width: 100%;
+}
+
+.trusto-logo .social-icon li a {
+  width: 24px;
+  height: 24px;
+}
+
+.trusto-logo .social-icon p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+
+.footer-menu h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #12141D;
+  margin-bottom: 18px;
+}
+
+.footer-menu ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.footer-menu ul li a {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #404040;
+  text-align: left;
+}
+
+.footer-menu .home {
+  flex-basis: 49%;
+}
+
+.footer-menu .about-us {
+  flex-basis: 40%;
+}
+
 /* mobile styling end here */
 
 
@@ -1679,7 +1783,93 @@ header li a:hover {
     }
     /* customer service section end here */
 
+      /* footer section start here */
 
+      footer {
+        padding-bottom: 0;
+      }
+  
+      .footer-wrapper {
+        width: 78.47%;
+        margin: 80px auto;
+        padding: 0;
+        max-width: 1130px;
+        flex-direction: row;
+        column-gap: 10%;
+      }
+  
+      .footer-wrapper .trusto-logo {
+        flex-direction: row;
+        flex-basis: 70%;
+      }
+      
+      .trusto-logo .social-icon {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        align-items: flex-start;
+        row-gap: 0;
+        column-gap: 16%;
+        text-align: left;
+      }
+      
+      .trusto-logo .social-icon .icon-wrapper {
+        row-gap: 42px;
+      }
+  
+      .footer-menu {
+        flex-basis: 28%;
+        margin-top: 0;
+        justify-content: space-between;
+      }
+      
+      .footer-menu h3 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        margin-bottom: 24px;
+      }
+      
+      .footer-menu ul {
+        row-gap: 24px;
+      }
+      
+      .footer-menu ul li a {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+        color: #404040;
+      }
+  
+      .trusto-logo .social-icon li {
+        transition: all ease-in .3s;
+      }
+  
+      .trusto-logo .social-icon li:hover {
+       background-color: #043A53;
+       transition: all ease-in .3s;
+      }
+  
+      .footer-menu ul li a:hover {
+        color: #043A53;
+      }
+  
+      .trusto-logo .social-icon p {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+        margin: 0;
+      }
+      
+      .footer-menu .home {
+        flex-basis: 43%;
+      }
+      
+      .footer-menu .about-us {
+        flex-basis: 40%;
+      }
+
+      /* footer section end here */
  }
 
 
