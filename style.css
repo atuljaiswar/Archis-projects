@@ -644,6 +644,139 @@ header li a:hover {
 }
 /* meet founder section end here */
 
+ /* we-believe section end here */
+
+ .we-believe {
+  background-color: #F2F5F6;
+}
+
+.we-believe .believe-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0 55px;
+  position: relative;
+}
+
+.believe-wrapper .title h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  color: #12141D;
+  text-align: center;
+  width: 85%;
+  margin: 0 auto 20px;
+  text-transform: capitalize;
+}
+
+.believe-wrapper .title .see-all {
+  display: none;
+}
+
+.believe-wrapper .swiper {
+  width: 100%;
+  height: 100%;
+  padding: 4px 0 0 0;
+}
+
+.believe-wrapper .swiper-slide {
+  background-color: #fff;
+  box-shadow: 0px 1px 2px 0px #00000014;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.believe-wrapper .swiper-slide p  {
+  font-size: 16px;
+  line-height: 24px;
+  color: #12141D;
+  margin: 10px 0 15px;
+}
+
+.believe-wrapper .swiper-slide .quote {
+  width: 40px;
+  height: 40px;
+}
+
+.believe-wrapper .trust-people {
+  display: flex;
+  column-gap: 10px;
+}
+
+.believe-wrapper .trust-people img {
+  width: 40px;
+  height: 40px;
+}
+
+.trust-people .name-designation {
+  display: flex;
+  flex-direction: column;
+}
+
+.trust-people .name-designation .name {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #12141D;
+}
+
+.trust-people .name-designation .designation {
+  font-size: 12px;
+  line-height: 18px;
+  color: #404040;
+}
+
+
+.believe-wrapper .swiper-pagination {
+  /* position: absolute;
+  top: 2% !important; */
+  position: relative !important;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+  margin: 10px 0 15px;
+}
+
+.believe-wrapper .swiper-pagination-bullet {
+  width: 20px !important;
+  height: 12px !important;
+  border-radius: 10px !important;
+  background-color: #000 !important;
+}
+
+.believe-wrapper .swiper-pagination-bullet-active {
+  width: 100px !important;
+  height: 12px !important;
+  border-radius: 10px !important;
+  background-color: #043A53 !important;
+}
+
+
+.see-all {
+  display: flex;
+  column-gap: 15px;
+  justify-content: center;
+  text-transform: capitalize;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.see-all .text {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #12141D;
+}
+
+.see-all .fa-arrow-right {
+  color: #043A53;
+  font-size: 20px;
+}
+
+
+/* we believe section end here */
+
 
 
 /* mobile styling end here */
@@ -1124,6 +1257,61 @@ header li a:hover {
 
  /* meet founder section end here */
 
+
+     /* we believe section start here */
+
+     .we-believe .believe-wrapper {
+      padding: 60px 0 70px;
+    }
+
+     .believe-wrapper {
+      width: 79%;
+      margin: 0 auto;
+      max-width: 1140px;
+    }
+
+    .believe-wrapper .title {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: 40px;
+    }
+
+
+    .believe-wrapper .title h2 {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 60px;
+      color: #12141D;
+      text-align: left;
+      width: 68%;
+      margin: 0;
+      text-transform: capitalize;
+    }
+
+    .believe-wrapper .title .see-all {
+      display: flex;
+      column-gap: 20px;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+    }
+
+    .believe-wrapper .see-all {
+      display: none;
+    }
+
+    .believe-wrapper  .swiper-pagination {
+      position: absolute !important;
+      bottom: 1% !important;
+      width: 100%;
+      text-align: center;
+      z-index: 10;
+      margin: 10px 0 15px;
+    }
+
+    /* we believe section end here */
+
  }
 
 
@@ -1256,6 +1444,60 @@ header li a:hover {
       text-align: left;
     }
      /* meet our founder section end here */
+
+     /* we believe start here */
+
+    .we-believe .believe-wrapper {
+      padding: 100px 0 150px;
+    }
+
+    .believe-wrapper  .swiper-pagination {
+      bottom: -5% !important;
+    }
+
+
+    .believe-wrapper .title {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: 60px;
+    }
+
+
+    .believe-wrapper .title h2 {
+      font-weight: 700;
+      font-size: 60px;
+      line-height: 72px;
+      color: #12141D;
+      text-align: left;
+      width: 80%;
+      margin: 0;
+      text-transform: capitalize;
+    }
+
+    .believe-wrapper .title .see-all {
+      display: flex;
+      column-gap: 20px;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+    }
+
+    .believe-wrapper .title .see-all .text {
+      font-size: 18px;
+      line-height: 28px;
+      color: #12141D;
+    }
+  
+    .believe-wrapper .swiper-slide {
+      width: 50%;
+    }
+
+    .believe-wrapper .swiper-pagination {
+      bottom: 9% !important;
+    }
+
+    /* we believe start here */
 } 
 
 /* desktop styling end here */
