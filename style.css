@@ -1078,6 +1078,137 @@ footer {
   flex-basis: 40%;
 }
 
+/*  footer section end here */
+
+/* collaborators section end here */
+.collaborators-container {
+  background-color: #F2F5F6;
+  padding: 20px 20px 0;
+}
+
+.collaborators-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #888888;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+
+.collaborators-wrapper p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #444444;
+  text-align: center;
+  padding: 30px;
+  border-bottom: 1px solid #888888;
+  font-family: "Poppins";
+}
+
+.collaborators-wrapper p span {
+  color: #6439FF;
+}
+
+.collaborators-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 15px 16px 30px;
+}
+
+.desktop-line {
+  display: none;
+}
+
+.collaborators-container .line {
+  text-indent: -9999px;
+  width: 98%;
+  margin: 0 auto;
+  height: 1px;
+  background-color: #000000;
+  display: block;
+  margin-top: 10px;
+}
+
+.collaborators-list h3 {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  color: #444444;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+.collaborators-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 6%;
+  row-gap: 15px;
+}
+
+.collaborators-list li {
+  flex-basis: 20%;
+  border-radius: 50%;
+}
+
+.collaborators-list li img {
+  width: 100%;
+}
+
+.copyrightContainer {
+  background-color: #F2F5F6;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 22px 50px 30px;
+  row-gap: 30px;
+}
+
+.copyright .text {
+  font-size: 500;
+  font-weight: 500;
+  line-height: 24px;
+  color: #92A7B0;
+  text-transform: capitalize;
+}
+
+.copyright i {
+  color: #92A7B0;
+}
+
+.terms-service {
+  display: flex;
+  justify-content: space-between;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.language .fa-globe {
+  font-size: 17px;
+}
+
+.language .fa-sort-down {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+/* collaborators section end here */
+
 /* mobile styling end here */
 
 
@@ -1870,6 +2001,133 @@ footer {
       }
 
       /* footer section end here */
+
+          /* collaborators section end here */
+.collaborators-container {
+  background-color: #F2F5F6;
+  padding: 45px 0px 0;
+}
+
+.collaborators-wrapper {
+  width: 47.2%;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+
+.collaborators-wrapper p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  padding: 30px;
+  width: 100%;
+}
+
+.collaborators-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+}
+
+.collaborators-list ul {
+  width: 100%;
+  margin-bottom: 20px;
+  column-gap: 3%;
+  row-gap: 0;
+}
+
+.collaborators-container .line {
+  text-indent: -9999px;
+  width: 98%;
+  margin: 0 auto;
+  height: 1px;
+  background-color: #000000;
+  display: block;
+  margin-top: 10px;
+}
+
+.collaborators-list h3 {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 15px 0 28px 0;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+.collaborators-list li {
+  flex-basis: 11%;
+  border-radius: 50%;
+}
+
+.collaborators-container .line {
+  display: none;
+}
+
+/* copyright start here */
+
+.copyrightContainer {
+  /* padding-bottom: 20px; */
+  /* border-bottom: 1px solid #000; */
+}
+
+ .desktop-line {
+  width: 100%;
+  text-indent: -9999px;
+  height: 2px;
+  background-color: #000;
+  margin-top: 20px;
+  opacity: 0.5;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: unset;
+  padding: 24px 0;
+  row-gap: 0;
+  width: 79.26%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.copyright .text {
+  font-size: 500;
+  font-weight: 500;
+  line-height: 24px;
+  color: #92A7B0;
+  text-transform: capitalize;
+}
+
+.copyright i {
+  color: #92A7B0;
+}
+
+.terms-service {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 22%;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.language .fa-globe {
+  font-size: 17px;
+}
+
+.language .fa-sort-down {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+/* copyright end here */
  }
 
 
