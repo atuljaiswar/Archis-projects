@@ -123,11 +123,7 @@ header li a:hover {
   transform: translateX(0);
 }
 
-/* mobile style end here */
-
-
 /* header styling end here */
-
 
 
 
@@ -136,7 +132,6 @@ header li a:hover {
 .left-banner, .right-banner {
   display: none;
 }
-
 
 .bannerContainer {
   display: flex;
@@ -225,11 +220,57 @@ header li a:hover {
 /* banner styling end here */
 
 
+/* trusted section start here */
+
+.trusted-brand {
+  width: 82%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.trusted-brand h2 {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.trusted-brand .brand-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  column-gap: 10%;
+  row-gap: 15px;
+}
+
+.brand-list li {
+  flex-basis: 25%;
+}
+
+.brand-list img {
+  width: 100%;
+  min-height: 13px;
+  max-width: 160px;
+}
+
+/* trusted section end here */
+
+
+
 
 /* mobile styling end here */
 
 
 /*desktop styling start here */
+
+
 
  /* header start here */
 
@@ -368,6 +409,38 @@ header li a:hover {
   margin-top: 0;
 }
 /* banner end here */
+
+/* trusted section start here */
+
+.trusted-brand {
+  background-color: #F2F5F6;
+  width: 100%;
+}
+
+.trusted-brand .wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 79%;
+  max-width: 1144px;
+  column-gap: 9%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.trusted-brand h2 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.trusted-brand .brand-list {
+  flex-wrap: unset;
+  width: 71%;
+}
+
+.brand-list li {
+  flex-basis: auto;
+}
+/* trusted section end here */
  }
 
 
