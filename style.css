@@ -1317,15 +1317,15 @@ footer {
 }
 
 .bannerDescription h1 {
-  font-size: 64px;
-  line-height: 72px;
+  font-size: 40px;
+  line-height: 55px;
   font-weight: 800;
   margin-bottom: 0;
 }
 
 .bannerDescription p {
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 26px;
   margin-top: 0;
 }
 
@@ -2133,6 +2133,21 @@ footer {
 
 
 @media screen and (min-width:1280px) {
+
+  /* banner section start here */
+  .bannerDescription h1 {
+    font-size: 64px;
+    line-height: 72px;
+    font-weight: 800;
+    margin-bottom: 0;
+  }
+  
+  .bannerDescription p {
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 0;
+  }
+  /* banner section end here */
   
   /* beneficial section start here */
 

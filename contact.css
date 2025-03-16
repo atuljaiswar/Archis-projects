@@ -1,0 +1,394 @@
+
+/* contact banner start here */
+.contact-banner {
+    background-color: #fff;
+}
+
+.we-are-help-container {
+	display: flex;
+	flex-direction: column;
+	padding: 40px 0 40px;
+}
+
+.we-are-help-container .title h2 {
+	font-size: 32px;
+	line-height: 42px;
+	font-weight: 800;
+	color: #12141D;
+	text-align: center;
+}
+
+.we-are-help-container .title .main-desc {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+	margin: 5px 0 30px;
+	text-align: center;
+}
+
+.contact-cards {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-cards .card:not(:first-child) {
+	margin-top: 20px;
+}
+
+.card {
+	padding:10px 30px;
+}
+
+.card .icon {
+  width: 64px;
+	height: 64px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+
+.mail, .call-us-icon {
+	background-color: #F2F5F6;
+}
+
+.location {
+	background-color: #FCF3E0;
+}
+
+.location i {
+	color: #F0B73F;
+}
+
+.card .icon i {
+  font-size: 28px;
+}
+
+.card h3 {
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 700;
+	color: #12141D;
+	margin-top: 30px;
+}
+
+.card p {
+	font-size: 18px;
+	line-height: 28px;
+	color: #404040;
+}
+
+.card a {
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+	margin-top: 70px;
+}
+
+.card a i {
+	color: #043A53;
+}
+
+.card a .text {
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 600;
+	color: #043A53;
+}
+
+/* contact banner end here */
+
+/* leave us message section start here */
+
+.leave-us-message {
+	margin-bottom: 30px;
+}
+
+.form-container {
+	width: 100%;
+	background: #fff;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.form-container h2 {
+	font-size: 32px;
+	font-weight: 800;
+	line-height: 44px;
+	color: #12141D;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.form-container p {
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #12141D;
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+
+.input-group {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.input-group .icon {
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #91A7B0;
+	font-size: 20px;
+}
+
+input, textarea {
+	width: 100%;
+	color: #000;
+	padding: 14px 10px 10px 40px; /* Adjust left padding for icons */
+	border: 1px solid #91A7B0;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+textarea {
+	padding: 14px 10px 10px 20px; 
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-family: 'Lato', sans-serif; /* Change to your preferred font */
+		font-size: 16px;
+    color: #91A7B0; /* Placeholder text color */
+}
+
+textarea {
+	resize: none;
+}
+
+.checkbox-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.checkbox-group {
+	margin-bottom: 15px;
+}
+
+.checkbox-container {
+	display: flex;
+	align-items: center;
+	margin-bottom: 1rem;
+	cursor: pointer;
+	user-select: none;
+}
+
+/* Hide the default checkbox */
+.checkbox-container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+/* Create custom circular checkbox */
+.custom-checkbox {
+	position: relative;
+	height: 32px;
+	width: 32px;
+	background-color: #D7E0E5;
+	border-radius: 50%;
+	margin-right: 10px;
+	transition: all 0.3s ease;
+}
+
+/* Create the checkmark (hidden when not checked) */
+.custom-checkbox:after {
+	content: "✓";
+	position: absolute;
+	display: none;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+	line-height: 1;
+	color: #000000;
+	font-weight: bold;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked ~ .custom-checkbox:after {
+	display: block;
+}
+
+/* Label text */
+.checkbox-text {
+	font-size: 16px;
+	color: #12141D;
+	line-height: 24px;
+}
+
+.leave-us-message .submit {
+	width: 100%;
+	padding: 13px;
+	line-height: 24px;
+	font-weight: 800;
+	background-color: #004a63;
+	color: white;
+	border: none;
+	border-radius: 30px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.leave-us-message .submit:hover {
+	background-color: #00344a;
+}
+
+
+/*leave us message section end here */
+
+
+@media screen  and (min-width:1024px) {
+
+	.contact-banner, #header {
+    background-color: #F2F5F6;
+}
+
+	.we-are-help-container {
+		width: 79.16%;
+		max-width: 1140px;
+		margin: 0 auto;
+		padding: 80px 0 90px;
+	}
+
+	.contact-cards {
+		align-items: stretch;
+	}
+
+	.contact-cards .card {
+		background-color: #fff;
+		border-radius: 15px;
+	}
+
+	.contact-cards .card:not(:first-child) {
+		margin-top: 0;
+	}
+	
+	
+	.we-are-help-container .title h2 {
+		font-size: 50px;
+		line-height: 65px;
+	}
+	
+	.we-are-help-container .title .main-desc {
+		font-size: 18px;
+		line-height: 28px;
+		margin: 0;
+	}
+
+	.contact-cards {
+		display: flex;
+		flex-direction: row;
+		column-gap: 30px;
+	}
+
+	.contact-cards .card {
+		padding: 20px;
+	}
+
+	/* form container start here */
+	.form-container {
+		width: 71.8%;
+		max-width: 1034px;
+		margin: 0 auto;
+	}
+
+	.form-container h2 {
+		font-size: 64px;
+		line-height: 72px;
+		margin-bottom: 10px;
+	}
+	
+	.form-container p {
+		width: 70%;
+		margin: 0 auto 28px;
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.input-group .icon {
+		left: 15px;
+		font-size: 30px;
+	}
+
+	input, textarea {
+		width: 100%;
+		padding: 20px 10px 20px 60px; /* Adjust left padding for icons */
+	}
+
+	textarea {
+		padding: 20px 10px 20px 20px; /* Adjust left padding for icons */
+	}
+
+	.input-row {
+			display: flex;
+			gap: 15px;
+	}
+
+	.input-group {
+			flex: 1;
+	}
+
+	.checkbox-wrapper {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.checkbox-group {
+		width: 70%;
+	}
+	
+.leave-us-message	.submit {
+		min-width: 150px;
+		width: 11%;
+		max-height: 50px;
+	}
+	/* form container end here */
+}
+
+@media screen  and (min-width:1280px) {
+
+	.we-are-help-container .title {
+		width: 65%;
+    margin: 0 auto;
+	}
+
+	.we-are-help-container .title h2 {
+		font-size: 80px;
+		line-height: 100px;
+	}
+
+	.we-are-help-container .title .main-desc {
+		margin: 0;
+	}
+	
+	.we-are-help-container .title .main-desc {
+		font-size: 20px;
+		line-height: 34px;
+	}
+
+	.contact-cards {
+		column-gap: 3%;
+		margin-top: 25px;
+	}
+
+	.contact-cards .card {
+		flex-basis: 33%;
+	}
+}
+
