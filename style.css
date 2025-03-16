@@ -302,6 +302,75 @@ header li a:hover {
 /* high level section end here */
 
 
+/* beneficial section start here */
+
+.beneficial {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 22px 80px;
+}
+
+.beneficial-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.beneficial-description a {
+  background-color: #043A53;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 30px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.beneficial-description h2 {
+  font-size: 30px;
+  margin: 16px 0;
+  font-weight: 700;
+  line-height: 38px;
+  color: #12141D;
+}
+
+.beneficial-description p {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.beneficial ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.beneficial li {
+  background-color: #F2F5F6;
+  border-radius: 16px;
+  padding: 20px 30px;
+}
+
+.beneficial li h3 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #12141D;
+  margin: 26px 0 15px;
+}
+
+.beneficial li p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #404040;
+}
+
+/* beneficial section end here */
+
 
 
 /* mobile styling end here */
@@ -519,8 +588,97 @@ header li a:hover {
 }
 
 /* high level section end here */
+
+/* beneficial section start here */
+
+.beneficial {
+  flex-direction: row;
+  width: 79%;
+  max-width: 1140px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 100px 0 200px;
+}
+
+.beneficial-description {
+  flex-basis: 23%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.beneficial-description a {
+  font-size: 18px;
+  line-height: 35px;
+  padding: 5px 24px;
+  min-width: 125px;
+}
+
+.beneficial-description h2 {
+  font-size: 40px;
+  line-height: 52px;
+  margin: 35px 0 32px;
+  text-transform: capitalize;
+}
+
+.beneficial-description p {
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+}
+
+.beneficial-description ul {
+  column-gap: 5%;
+
+}
+
+.beneficial ul {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  row-gap: 0;
+  width: 70%;
+}
+
+.beneficial li {
+  flex-basis: 31.8%;
+  padding: 20px 25px;
+}
+
+.beneficial li h3 {
+  font-size: 24px;
+  line-height: 32px;
+  margin: 26px 0 12px;
+}
+
+.beneficial li p {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/* beneficial section end here */
  }
 
 
+
+@media screen and (min-width:1280px) {
+  
+  /* beneficial section start here */
+
+  .beneficial-description h2 {
+    font-size: 60px;
+    line-height: 72px;
+    margin: 35px 0 32px;
+    text-transform: capitalize;
+  }
+  
+  .beneficial-description p {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+  }
+
+  /* beneficial section end here */
+} 
 
 /* desktop styling end here */
