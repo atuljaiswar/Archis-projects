@@ -371,6 +371,155 @@ header li a:hover {
 
 /* beneficial section end here */
 
+/* building bridges, achivement number and meet founder wrapper start here */ 
+.bridge-achivement-founder-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+/* builing bridges section end here */
+.builing-bridges {
+  display: flex;
+  flex-direction: column;
+  row-gap: 35px;
+}
+
+
+.building-description {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.building-description h2 {
+  font-size: 30px;
+  line-height: 38px;
+  color: #12141D;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.building-description h2 span {
+  color: #92A7B0;
+}
+
+.building-description p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #12141D;
+  margin: 7px 0 14px;
+}
+
+.building-description .reward-redirection {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  display: flex;
+  padding: 15px 24px;
+  column-gap: 20px;
+  background-color: #043A53;
+  border-radius: 50px;
+  min-width: 205px;
+}
+
+.reward-redirection span {
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.reward-redirection .arrow {
+  background-color: #F2F5F629;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.reward-container {
+  position: relative;
+}
+
+.reward-container .best-reward {
+  width: 149px;
+  height: 149px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  background-color: #043A53;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 5px;
+  position: absolute;
+  bottom: 8%;
+  right: 8%;
+  padding:0px 2px 15px;
+}
+
+.reward-container .best-reward .diamond {
+  background-color: #F2F5F629;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.reward-container .best-reward .number {
+  font-size: 36px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.reward-container .best-reward .award-text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.main-img-desktop {
+  display: none;
+}
+
+.reward-container .main-img-mobile {
+  width: 80%;
+  position: relative;
+  left: 0;
+}
+
+
+.best-reward .diamond {
+  display: block;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.best-reward .number {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 700;
+}
+
+.best-reward .award-text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+
+/* builing bridges section end here */
+
 
 
 /* mobile styling end here */
@@ -657,6 +806,98 @@ header li a:hover {
 }
 
 /* beneficial section end here */
+
+/* builing bridges section start here */
+.builing-bridges {
+  display: flex;
+  flex-direction: row;
+  row-gap: 0px;
+  column-gap: 9%;
+  margin-top: 30px;
+}
+
+.building-description {
+  width: 46%;
+  align-items: flex-start;
+  text-align: left;
+}
+
+
+.building-description h2 {
+  font-size: 35px;
+  line-height: 44px;
+  text-align: left;
+}
+
+.building-description p {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 26px 0 20px;
+  width: 79%;
+}
+
+.building-description .reward-redirection {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  display: flex;
+  padding: 18px 24px;
+  column-gap: 20px;
+  background-color: rgba(4, 58, 83,1);
+  border-radius: 50px;
+  min-width: 205px;
+  transition: all ease-in .3s;
+}
+
+.building-description .reward-redirection:hover {
+  background-color: rgba(4, 58, 83, 0.5);
+  transition: all ease-in .3s;
+}
+
+.reward-container {
+  order: -1;
+  width: 44%;
+}
+
+.reward-container .main-img-mobile {
+  display: none;
+}
+
+.reward-container .main-img-desktop {
+  width: 100%;
+  display: block;
+}
+
+.reward-container .best-reward {
+  width: 170px;
+  height: 170px;
+  padding: 0;
+  right: -12%;
+  bottom: 7%;
+  row-gap: 14px;
+}
+
+.reward-container .best-reward .diamond {
+  width: 45px;
+  height: 45px;
+}
+
+.diamond img {
+  width: 73%;
+}
+
+.best-reward .number {
+  font-size: 32px;
+  line-height: 60px;
+}
+
+.reward-container .best-reward .award-text {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+/* builing bridges section end here */
  }
 
 
@@ -679,6 +920,61 @@ header li a:hover {
   }
 
   /* beneficial section end here */
+
+
+  /* builing bridges section start here */
+
+  .builing-bridges {
+    margin-top: 50px;
+  }
+
+  .reward-container .best-reward .diamond {
+    width: 56px;
+    height: 56px;
+  }
+  
+  .diamond img {
+    width: 73%;
+  }
+  
+  .best-reward .number {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .trusted-brand .brand-list {
+    flex-wrap: unset;
+    width: 71%;
+  }
+  
+  .reward-container .best-reward .award-text {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  .reward-container .best-reward {
+    width: 229px;
+    height: 229px;
+    padding: 0;
+    right: -12%;
+    bottom: 7%;
+    row-gap: 14px;
+  }
+
+  .building-description h2 {
+    font-size: 60px;
+    line-height: 72px;
+    text-align: left;
+  }
+  
+  .building-description p {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 26px 0 20px;
+    width: 79%;
+  }
+  /* builing bridges section end here */
 } 
 
 /* desktop styling end here */
