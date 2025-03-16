@@ -520,6 +520,41 @@ header li a:hover {
 
 /* builing bridges section end here */
 
+ /* achievment numbers section start here */
+ .achivement-numbers {
+  padding: 100px 20px 100px;
+}
+
+.achivement-numbers ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 30px;
+}
+
+.achivement-numbers li {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  flex-basis: 50%;
+  align-items: center;
+}
+
+.achivement-numbers ul .number {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 700;
+  color: #043A53;
+}
+
+.achivement-numbers ul .description {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #404040;
+}
+/* achievment numbers section end here */
+
 
 
 /* mobile styling end here */
@@ -898,6 +933,32 @@ header li a:hover {
 }
 
 /* builing bridges section end here */
+
+
+ /* achievment numbers section start here */
+
+ .achivement-numbers {
+  order:-2;
+ }
+
+.achivement-numbers ul {
+  display: flex;
+  flex-wrap: unset;
+  width: 100%;
+  justify-content: center;
+  row-gap: 30px;
+}
+
+.achivement-numbers li {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  flex-basis: 20%;
+  align-items: center;
+}
+
+ /* achievment numbers section end here */
+
  }
 
 
@@ -975,6 +1036,40 @@ header li a:hover {
     width: 79%;
   }
   /* builing bridges section end here */
+
+   /* achievment numbers section start here */
+   .achivement-numbers {
+    width: 74.3%;
+    max-width: 1070px;
+    margin: 0 auto;
+    padding: 0 0px 100px;
+  }
+
+  .achivement-numbers ul {
+    display: flex;
+    flex-wrap: unset;
+    width: 100%;
+    justify-content: center;
+    row-gap: 30px;
+  }
+
+  .achivement-numbers li {
+    row-gap: 15px;
+    flex-basis: 25%;
+  }
+
+  .achivement-numbers ul .number {
+    font-size: 60px;
+    line-height: 72px;
+  }
+
+  .achivement-numbers ul .description {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #1E1E1E;
+  }
+  /* achievment numbers section end here */
 } 
 
 /* desktop styling end here */
