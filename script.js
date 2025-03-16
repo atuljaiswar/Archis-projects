@@ -31,4 +31,19 @@ document.addEventListener("DOMContentLoaded", function () {
           },
         },
     });
+
+    var swiper1 = new Swiper(".trustco-swiper", {
+        slidesPerView: 1.2, // Center full + 10% side visibility
+        centeredSlides:true,
+        loop: true,
+        spaceBetween: 15,
+        breakpoints: {
+          768: {
+            slidesPerView: 3, // Show more slides on larger screens
+            spaceBetween: 25,
+            centeredSlides: false,
+          },
+        },
+       
+      });
   });

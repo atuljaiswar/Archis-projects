@@ -778,6 +778,119 @@ header li a:hover {
 /* we believe section end here */
 
 
+  /* trustco section start here */
+
+  .trustco {
+    padding: 40px 0 100px;
+  }
+
+  .trustco-wrapper .title .see-all {
+    display: none;
+  }
+
+  .trustco-wrapper h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+ .trustco-wrapper .swiper {
+  width: 100%;
+  height: 100%;
+ }
+
+ .trustco-wrapper .swiper-slide {
+  box-shadow: 0px 50px 80px 0px #00000014;
+  border-radius: 10px;
+  width: 83% !important;
+ }
+
+ .trustco-swiper .swiper-slide img {
+  width: 100%;
+ }
+
+ .trustco-swiper .detailed-description {
+  background-color: #fff;
+  padding: 10px;
+ }
+
+ .trustco-swiper .detailed-description .date-name {
+  display: flex;
+  column-gap: 10px;
+  margin: 10px 0;
+ }
+
+ .detailed-description .date-name .date {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #12141D;
+ }
+
+
+ .detailed-description .date-name .name {
+    font-size: 12px;
+    line-height: 18px;
+    color: #404040;
+ }
+
+ .detailed-description h3 {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000;
+  text-align: left;
+ }
+
+ .detailed-description p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #404040;
+  margin: 15px 0;
+ }
+
+ .detailed-description .read-story {
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+ }
+
+ .detailed-description .read-story .text {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #12141D;
+  text-transform: capitalize;
+ }
+
+ .detailed-description .read-story .fa-arrow-right {
+  color: #12141D;
+  font-size: 15px;
+ }
+
+ .trustco-wrapper .see-all {
+  display: flex;
+  column-gap: 15px;
+  justify-content: center;
+  text-transform: capitalize;
+  margin: 0;
+  align-items: center;
+  padding:30px 0 50px;
+  background-color: #F2F5F6;
+}
+
+.trustco-wrapper .see-all .text {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #12141D;
+}
+
+.trustco-wrapper .see-all .fa-arrow-right {
+  color: #043A53;
+  font-size: 20px;
+}
+
+/* trustco section end here */
 
 /* mobile styling end here */
 
@@ -1310,7 +1423,105 @@ header li a:hover {
       margin: 10px 0 15px;
     }
 
-    /* we believe section end here */
+    /* we believe section end here */  /* trustco section start here */
+    .trustco-wrapper {
+      width: 79%;
+      margin: 0 auto;
+      max-width: 1140px;
+    }
+
+    .trustco .trustco-swiper {
+      padding: 30px 0 80px;
+   }
+
+    .trustco-wrapper .title {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .trustco-wrapper .title h2 {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 60px;
+      color: #12141D;
+      text-align: left;
+      width: 68%;
+      margin: 0;
+      text-transform: capitalize;
+    }
+
+    .trustco-wrapper .title .see-all {
+      display: flex;
+      column-gap: 20px;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      background-color: transparent;
+    }
+
+    .trustco-wrapper .see-all {
+      display: none;
+    }
+
+    .trustco-swiper .detailed-description {
+      background-color: #fff;
+      padding: 0px 24px 24px;
+     }
+
+     .trustco-swiper .detailed-description .date-name {
+      column-gap: 10px;
+      margin: 10px 0 15px;
+     }
+    
+     .detailed-description .date-name .date {
+      font-size: 16px;
+      line-height: 24px;
+     }
+    
+    
+     .detailed-description .date-name .name {
+        font-size: 16px;
+        line-height: 24px;
+     }
+    
+     .detailed-description h3 {
+      font-size: 24px;
+      line-height: 32px;
+   
+     }
+    
+     .detailed-description p {
+      font-size: 18px;
+      line-height: 28px;
+      color: #404040;
+      margin: 14px 0;
+     }
+
+     .detailed-description .read-story {
+      column-gap: 20px;
+     }
+    
+     .detailed-description .read-story .text {
+      font-size: 18px;
+      line-height: 28px;
+     }
+    
+     .detailed-description .read-story .fa-arrow-right {
+      font-size: 18px;
+     }
+
+    .trustco-wrapper .swiper-slide {
+      box-shadow: 0px 50px 80px 0px #00000014;
+      border-radius: 20px;
+      width: 32% !important;
+     }
+
+    /* trustco section end here */
+
+
 
  }
 
@@ -1498,6 +1709,24 @@ header li a:hover {
     }
 
     /* we believe start here */
+
+    /*trustco section start here */
+
+    .trustco {
+      padding: 100px 0 0px;
+    }
+
+    .trustco .trustco-swiper {
+       padding: 40px 0 100px;
+    }
+
+
+    .trustco-wrapper .title h2 {
+      font-size: 60px;
+      line-height: 72px;
+      width: 68%;
+    }
+    /* truscto section end here */
 } 
 
 /* desktop styling end here */
