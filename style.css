@@ -262,6 +262,45 @@ header li a:hover {
 
 /* trusted section end here */
 
+/* high level section start here */
+.high-level-sales {
+  background-color: #043A53;
+  padding: 50px 22px 0;
+}
+
+.high-level-sales .title-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.high-level-sales .title-description h2 {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.title-description h2 span {
+  color: #F0B73F;
+}
+
+.high-level-sales .title-description p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  padding: 18px 0;
+}
+
+.high-level-sales img {
+  width: 100%;
+  margin-bottom: -2%;
+  border-radius: 10px 10px 0 0 ;
+}
+
+/* high level section end here */
+
 
 
 
@@ -441,6 +480,45 @@ header li a:hover {
   flex-basis: auto;
 }
 /* trusted section end here */
+
+
+/* high level section start here */
+
+.high-level-sales {
+  padding: 100px 0 0;
+}
+
+.high-level-sales .wrapper {
+  width: 79.16%;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.high-level-sales .title-description {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.high-level-sales .title-description h2 {
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: 700;
+  width: 54%;
+}
+
+.high-level-sales .title-description p {
+  font-size: 20px;
+  line-height: 30px;
+  width: 38%;
+  margin: 0;
+}
+
+.high-level-sales img {
+  margin-bottom: -1%;
+}
+
+/* high level section end here */
  }
 
 
